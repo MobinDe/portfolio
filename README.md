@@ -1,73 +1,65 @@
-# React + TypeScript + Vite
+# ⚡ My Front-End Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This repository contains the source code for my professional website, built to showcase my projects, skills, and experience as a front-end developer.
 
-Currently, two official plugins are available:
+The entire project is architected with a strong emphasis on **type safety**, **rapid styling**, and **blazing-fast build times**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
 
-## React Compiler
+- **Core Framework:** React
+- **Build Tool:** Vite (for instant HMR and ultra-fast builds)
+- **Styling:** Tailwind CSS (utility-first, fully responsive, and dark-mode ready)
+- **Language:** TypeScript (strict type-checking for robust, bug-free code)
+- **Linting/Formatting:** ESLint + Prettier
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+- 🚀 **Lightning Fast Performance:** Leverages Vite's native ESM and optimized production builds.
+- 🎨 **Tailwind Utility-First Styling:** Rapid UI development with a consistent, customizable design system.
+- 📱 **Fully Responsive:** Pixel-perfect layouts across all devices (mobile, tablet, and desktop).
+- 🛡️ **Type-Safe Code:** Fully written in TypeScript to catch errors early and improve developer experience.
+- 🧩 **Modular Architecture:** Reusable, well-organized components for easy scaling and maintenance.
+- 🌗 **Dark/Light Mode:** (If you have this—flaunt it!) Seamless theme switching powered by Tailwind.
+- ♿ **Accessibility:** Semantic HTML and focus management included out-of-the-box.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Getting Started (Local Development)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+To run this project locally:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/[your-username]/[your-repo-name].git
+   cd [your-repo-name]
+Install dependencies:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+bash
+npm install
+# or
+yarn install
+Start the Vite development server:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+bash
+npm run dev
+(The app will usually be running at http://localhost:5173)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Build for production:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+bash
+npm run build
+npm run preview  # To preview the production build locally
+📂 Project Structure
+bash
+├── public/               # Static assets (favicon, meta images)
+├── src/
+│   ├── components/       # Reusable UI components (Button, Card, Navbar)
+│   ├── pages/            # Main views (Home, Projects, About, Contact)
+│   ├── hooks/            # Custom React hooks
+│   ├── types/            # TypeScript interfaces and type definitions
+│   ├── utils/            # Helper functions and constants
+│   ├── data/             # Static data (projects list, skills, etc.)
+│   ├── App.tsx           # Main app component
+│   └── main.tsx          # Vite entry point
+├── index.html            # Vite HTML entry
+├── tailwind.config.js    # Tailwind CSS configuration
+├── vite.config.ts        # Vite configuration
+└── tsconfig.json         # TypeScript compiler options
