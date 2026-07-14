@@ -1,0 +1,64 @@
+{
+  "header": {
+    "logo": "Mobin Ghalvazi",
+    "nav": {
+      "about": "About",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+    "aria": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "toggle_theme": "Toggle theme",
+      "toggle_menu": "Toggle menu",
+      "user_avatar": "User avatar",
+      "close_profile": "Close profile"
+    }
+  },
+  "hero": {
+    "available": "Available for Work",
+    "greeting": "Hi, I'm <1>Mobin</1>",
+    "description": "A front‑end developer focused on <1>React</1> and <3>TypeScript</3>. Passionate about building fast, responsive, and beautiful UIs.",
+    "cta_projects": "View Projects",
+    "cta_resume": "Download Resume"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "about": {
+    "title": "About Me",
+    "text1": "A <1>Front‑End</1> developer focusing on component architecture, implementing <3>scalable</3> and <5>Performance‑Optimized</5> interfaces. Clean, testable code and <7>Accessibility</7> standards are my priorities.",
+    "text2": "With over <1>X years of experience</1> building modern apps with <3>React, Next.js, TypeScript</3> and advanced state management (<5>Zustand, Redux Toolkit</5>), I specialize in optimizing <7>Core Web Vitals</7> and implementing <9>Micro‑Frontend</9> architecture.",
+    "text3": "Active in open‑source, committed to <1>continuous learning</1> and following the latest trends in the <3>React</3> ecosystem. Experienced in agile international teams, setting up <5>CI/CD</5> and writing <7>E2E</7> tests with Cypress/Playwright.",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Completed Projects",
+      "clients": "Happy Clients"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Ready to collaborate and hear your ideas.",
+    "email_label": "Email",
+    "location_label": "Location",
+    "location_value": "Iran",
+    "social_title": "Social Media",
+    "form_title": "Send a Message",
+    "name_label": "Name",
+    "name_placeholder": "Your name",
+    "email_placeholder": "example@email.com",
+    "message_label": "Message",
+    "message_placeholder": "Your message...",
+    "send_button": "Send Message",
+    "sending": "Sending...",
+    "sent": "✓ Message sent"
+  },
+  "projects": {
+  "demo": "Live Demo",
+  "source": "Source Code"
+},
+  "footer": {
+    "rights": "© 2026 Mobin. Built with <1>React</1> + <2>Vite</2> + <3>TypeScript</3> with <4>❤️</4>"
+  }
+}

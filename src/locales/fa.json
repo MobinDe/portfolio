@@ -1,0 +1,62 @@
+{
+  "header": {
+    "logo": "Mobin Ghalvazi",
+    "nav": {
+      "about": "درباره من",
+      "projects": "پروژه‌ها",
+      "skills": "مهارت‌ها",
+      "contact": "تماس"
+    },
+    "aria": {
+      "github": "گیت‌هاب",
+      "linkedin": "لینکدین",
+      "toggle_theme": "تغییر تم",
+      "toggle_menu": "باز و بسته کردن منو",
+      "user_avatar": "تصویر کاربر",
+      "close_profile": "بستن تصویر"
+    }
+  },
+  "hero": {
+    "available": "آماده همکاری",
+    "greeting": "سلام، من <1>مبین</1> هستم",
+    "description": "توسعه‌دهنده فرانت‌اند با تمرکز بر <1>React</1> و <3>TypeScript</3>. عاشق ساختن رابط‌های کاربری سریع، واکنش‌گرا و چشمنواز.",
+    "cta_projects": "مشاهده پروژه‌ها",
+    "cta_resume": "دانلود رزومه"
+  },
+  "projects": {
+  "demo": "دمو زنده",
+  "source": "سورس کد"
+},
+  "skills": {
+    "title": "مهارت‌ها"
+  },
+  "about": {
+    "title": "درباره من",
+    "text1": "توسعه‌دهندهٔ <1>Front-End</1> با تمرکز بر معماری کامپوننت، پیاده‌سازی رابط‌های کاربری <3>مقیاس‌پذیر</3> و <5>Performance-Optimized</5>. کد تمیز، تست‌پذیر و رعایت استانداردهای <7>Accessibility</7> اولویت من در هر پروژه است.",
+    "text2": "با بیش از <1>X سال تجربه</1> در طراحی و توسعه اپلیکیشن‌های مدرن با <3>React، Next.js، TypeScript</3> و مدیریت state پیشرفته (<5>Zustand، Redux Toolkit</5>)، در بهینه‌سازی <7>Core Web Vitals</7> و پیاده‌سازی معماری مبتنی بر <9>Micro-Frontend</9> تخصص دارم.",
+    "text3": "فعال در جامعهٔ متن‌باز، معتقد به <1>یادگیری مداوم</1> و دنبال‌کنندهٔ آخرین ترندهای اکوسیستم <3>React</3>. تجربهٔ همکاری با تیم‌های چابک بین‌المللی، راه‌اندازی <5>CI/CD</5> و نوشتن تست‌های <7>E2E</7> با Cypress/Playwright.",
+    "stats": {
+      "experience": "سال تجربه",
+      "projects": "پروژه تکمیل‌شده",
+      "clients": "مشتری راضی"
+    }
+  },
+  "contact": {
+    "title": "تماس با من",
+    "subtitle": "آماده همکاری و شنیدن ایده‌های شما هستم.",
+    "email_label": "ایمیل",
+    "location_label": "موقعیت",
+    "location_value": "ایران",
+    "social_title": "شبکه‌های اجتماعی",
+    "form_title": "ارسال پیام",
+    "name_label": "نام",
+    "name_placeholder": "نام شما",
+    "email_placeholder": "example@email.com",
+    "message_label": "پیام",
+    "message_placeholder": "پیام شما...",
+    "send_button": "ارسال پیام",
+    "sending": "در حال ارسال...",
+    "sent": "✓ پیام شما ارسال شد"
+  }
+  
+}

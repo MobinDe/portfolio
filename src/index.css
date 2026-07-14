@@ -1,0 +1,16 @@
+﻿@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --color-primary: #007979;
+  --color-primary-light: #24B1B1;
+  --color-bg: #FFF0E4;
+  --color-bg-soft: #FFE0C5;
+}
+@keyframes gradient {
+  0% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+  100% { background-position: 0% center; }
+}
+.animate-gradient {
+  animation: gradient 3s ease infinite;
+}
