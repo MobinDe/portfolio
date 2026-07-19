@@ -78,9 +78,7 @@ const Hero = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
             </div>
-            <div className="absolute -bottom-2 -right-2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-lg">
-              
-            </div>
+           
           </div>
         </div>
 
