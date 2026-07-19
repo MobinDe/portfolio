@@ -5,7 +5,7 @@ const About = () => {
   const isRTL = i18n.language === 'fa';
 
   const stats = [
-    { value: '+3', labelKey: 'about.stats.experience' },
+    { value: '+1', labelKey: 'about.stats.experience' },
     { value: '+15', labelKey: 'about.stats.projects' },
     { value: '+50', labelKey: 'about.stats.clients' },
   ];
